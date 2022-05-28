@@ -1,0 +1,12 @@
+def solution(x):
+    present = x
+    x = str(x)
+    add = 0
+
+    for i in x:
+        add += int(i)
+    
+    if present % add != 0:
+        return False
+    
+    return True
