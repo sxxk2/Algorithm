@@ -1,6 +1,6 @@
 def solution(my_string):
-    answer = []
+    answer = 0
     for i in my_string:
         if i.isdecimal():
-            answer.append(int(i))
-    return sum(answer)
+            answer += int(i)
+    return answer
