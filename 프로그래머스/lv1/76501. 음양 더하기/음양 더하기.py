@@ -4,7 +4,7 @@ def solution(absolutes, signs):
     for i in range(len(absolutes)):
         if signs[i]:
             answer += absolutes[i]
-        elif not signs[i]:
+        else:
             answer -= absolutes[i]
     
     return answer
